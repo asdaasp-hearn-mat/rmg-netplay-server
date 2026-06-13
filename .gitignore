@@ -20,4 +20,4 @@
 # Go workspace file
 go.work
 
-gopher64-netplay-server
+rmg-netplay-server

@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	gameserver "github.com/gopher64/gopher64-netplay-server/internal/gameServer"
+	gameserver "github.com/Rosalie241/rmg-netplay-server/internal/gameServer"
 	"github.com/gorilla/websocket"
 	retryablehttp "github.com/hashicorp/go-retryablehttp"
 )

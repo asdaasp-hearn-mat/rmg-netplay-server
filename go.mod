@@ -1,4 +1,4 @@
-module github.com/gopher64/gopher64-netplay-server
+module github.com/Rosalie241/rmg-netplay-server
 
 go 1.26.3
 

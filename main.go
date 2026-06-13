@@ -7,14 +7,13 @@ import (
 	"os"
 
 	"github.com/go-logr/zapr"
-	lobbyserver "github.com/gopher64/gopher64-netplay-server/internal/lobbyServer"
+	lobbyserver "github.com/Rosalie241/rmg-netplay-server/internal/lobbyServer"
 	"go.uber.org/zap"
 )
 
 const (
 	DefaultBasePort    = 45000
-	DefaultMOTDMessage = "Please consider <a href=\"https://www.patreon.com/loganmc10\">subscribing to the Patreon</a> or " +
-		"<a href=\"https://github.com/sponsors/loganmc10\">supporting this project on GitHub.</a> Your support is needed in order to keep the netplay service online."
+	DefaultMOTDMessage = "Welcome to the RMG netplay server!"
 )
 
 func newZap(logPath string) (*zap.Logger, error) {
