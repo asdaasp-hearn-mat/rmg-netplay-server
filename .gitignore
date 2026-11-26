@@ -20,4 +20,14 @@
 # Go workspace file
 go.work
 
+# Compiled server binaries
 rmg-netplay-server
+rmg-netplay-server-*
+
+# Runtime logs and PID files
+*.log
+*.pid
+
+# Dynamically generated server list JSONs (contain machine-specific IPs)
+servers.json
+servers-*.json

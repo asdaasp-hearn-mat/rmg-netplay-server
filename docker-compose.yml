@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  rmg-netplay-server:
+    build:
+      context: .
+      dockerfile: Containerfile
+    image: rmg-netplay-server:latest
+    container_name: rmg-netplay-server
+    restart: unless-stopped
+    network_mode: host
+    command:
+      - "-name"
+      - "Mario Party 2 Server"
+      - "-motd"
+      - "Welcome to the RMG Netplay Server!"
+      - "-max-games"
+      - "10"
